@@ -7,6 +7,11 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
 
 // start the Stimulus application
-import './bootstrap';
+import './bootstrap.js';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
+
