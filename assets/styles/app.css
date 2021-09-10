@@ -1,1 +1,36 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+main{
+    height: 80.5vh; /*! a revoir une foi les page fini */
+}
+
+.main-footer{
+    height: 100px;
+    width: 100vw;
+}
+
+.container-vertu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vertu{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citation q ::before{
+    content: open-quote;
+}
+.citation q ::after{
+    content: close-quote;
+}
